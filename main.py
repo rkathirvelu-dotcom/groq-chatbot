@@ -46,7 +46,7 @@ def main():
             # Call the Groq API
             chat_completion = client.chat.completions.create(
                 messages=conversation_history,
-                model="llama3-8b-8192",  # Fast and capable Groq model
+                model="llama-3.3-70b-versatile",  # Fast and capable Groq model
                 temperature=0.7,
                 max_tokens=1024,
             )
