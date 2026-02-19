@@ -32,7 +32,7 @@ python main.py
 Type `quit` to exit the chatbot.
 
 ## Model
-This uses `llama3-8b-8192` by default. You can change the model in `main.py` to any supported Groq model:
-- `llama3-8b-8192` (fast, default)
-- `llama3-70b-8192` (more capable)
+This uses `llama-3.3-70b-versatile` by default. You can change the model in `main.py` to any supported Groq model:
+- `llama-3.3-70b-versatile` (latest, default)
+- `llama-3.1-8b-instant` (faster, lightweight)
 - `mixtral-8x7b-32768` (large context)
